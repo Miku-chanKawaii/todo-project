@@ -6,6 +6,10 @@ module.exports = {
     },
     extends: 'eslint:recommended',
     rules: {
-        'no-unused-vars': 'off'
+        'no-unused-vars': 'off',
+        'vue/no-reserved-component-names': 'off',   
     },
+    "parserOptions": {
+        "sourceType": "module",
+    }
 };
